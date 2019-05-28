@@ -31,6 +31,12 @@ h4 {
     font-size: 2.1em;
     color: #fff;
 }
+h5 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.8em;
+    color: #414141;
+}
 button {
     color: #fff;
     font-family: 'Montserrat';
@@ -67,6 +73,7 @@ header i {
 .navbar li a {
     text-transform: uppercase;
     font-size: 1.4em;
+    padding: 15px 0;
     font-weight: 400;
     color: #000;
     margin-right: 2rem;
@@ -98,10 +105,35 @@ header i {
 
 /*  */
 
+.about {
+    background-color: rgba(0,0,0,.1);
+}
+.about h1 {
+    color: #414141;
+}
+.about hr {
+    width: 5em;
+    height: 0.05rem;
+    background-color: #c3092f;
+    float: left;
+}
+.about p {
+    color: #8c8c8c;
+}
+.about .hr-1 {
+    width: 50%;
+    height: 0.5rem;
+    background-color: #c3092f;
+}
+.about img {
+    z-index: -5;
+    height: 50%;;
+}
+
+/*  */
 .search {
     background-image: url("../img/search/bg.png"); 
     background-size: cover;
-    /* background-repeat: no-repeat; */
 }
 .search button {
     box-shadow:  0 5px 0 #651223;
@@ -129,3 +161,55 @@ header i {
 .request .opacity {
     background-color: rgba(0,0,0,.65);
 }
+/* footer */
+footer .copyright {
+    color: #5c5c5c;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  
+  footer .nav-item:first-child a{
+    color: #c3092f;
+  }
+  
+  footer .nav-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #000;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  
+  footer .info i{
+    margin-right: 15px;
+    height: 100%;
+    font-size: 2em;
+    color: #c2c4c6;
+    margin-top: 2px;
+  }
+  
+  footer .info p{
+    color: #000;
+    font-size: 1.3em;
+    line-height: 25px;
+  }
+  
+  footer .tel a{
+    font-size: 2.2em;
+    font-weight: bold;
+    line-height: 65px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  footer .button button{
+    font-size: 1.2em;
+    line-height: 25px;
+    color: #fff;
+    background-color: #E4022C;
+    padding: 10px 10px;
+  }
+  
+  /* footer */
+  
