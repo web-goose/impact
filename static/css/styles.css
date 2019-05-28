@@ -71,7 +71,7 @@ header {
 /*  */
 
 .best_parts {
-    background-image: url("../img/best_parts/bg.png");
+    background-color: rgba(0,0,0,.8)
 }
 .best_parts img {
     position: absolute;
@@ -85,4 +85,7 @@ header {
 
 .request {
     background-image: url("../img/request/bg.png");
+}
+.request .test {
+    background-color: rgba(0,0,0,.65);
 }
