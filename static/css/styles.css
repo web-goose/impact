@@ -19,8 +19,27 @@ h1 {
 h2 {
     font-family: 'Montserrat';
     font-weight: 700;
+    padding: 0.5rem 0;
     font-size: 40px;
     color: #fff;
+}
+h4 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 21px;
+    color: #fff;
+}
+button {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 21px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #c3092f;
 }
 header {
     padding: 30px 0;
@@ -34,6 +53,7 @@ header {
     font-size: 46.2px;
     color: #c3092f;
     margin: 0;
+    padding: 0;
     line-height: 1;
 }
 .logo-1 {
@@ -43,15 +63,26 @@ header {
     color: #444444;
     margin: 0; 
     line-height: 1;
+    padding: 0;
 }
 
 /*  */
 
-.block-8 {
-    background-image: url("../img/block-8/bg.png");
+/*  */
+
+.best_parts {
+    background-image: url("../img/best_parts/bg.png");
 }
-.block-8 img {
+.best_parts img {
     position: absolute;
     right: 10rem;
     z-index: -5;
+}
+
+/*  */
+
+/*  */
+
+.request {
+    background-image: url("../img/request/bg.png");
 }
