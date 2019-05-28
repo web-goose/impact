@@ -1,2 +1,2 @@
 # impact
-https://web-goose.github.io/impact/
+https://web-goose.github.io/impart/
