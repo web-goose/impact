@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
+
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 43px;
+    color: #fff;
+}
+
+.logo {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 46.2px;
+    color: #c3092f;
+}
