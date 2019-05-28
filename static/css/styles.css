@@ -96,6 +96,16 @@ header i {
 
 /*  */
 
+.search {
+    background-image: url("../img/search/bg.png"); 
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.search button {
+    box-shadow:  0 5px 0 #651223;
+}
+
+
 /*  */
 
 .best_parts {
