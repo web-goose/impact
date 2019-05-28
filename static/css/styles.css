@@ -41,8 +41,36 @@ button {
     border-radius: 5px;
     background-color: #c3092f;
 }
-header {
+header > .container{
     padding: 30px 0;
+}
+header button {
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 10px;
+}
+header p {
+    color: #585858;
+    line-height: 1.2;
+    font-size: 14px;
+}
+header i {
+    color: #d2d2d2;
+    margin-right: 0.8rem;
+    font-size: 1.4rem;
+}
+.navbar {
+    background-color: #ededed;
+}
+.navbar li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-right: 2rem;
+}
+.navbar li a:hover {
+    color: #c3092f !important; 
 }
 
 /* header */
@@ -86,6 +114,6 @@ header {
 .request {
     background-image: url("../img/request/bg.png");
 }
-.request .test {
+.request .opacity {
     background-color: rgba(0,0,0,.65);
 }
