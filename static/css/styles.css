@@ -172,7 +172,83 @@ hr {
 .search button {
     box-shadow:  0 5px 0 #800b20;
 }
-
+.search-1 {
+    position: relative;
+  }
+  
+  .search-1 .menu .item {
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .search-1 .menu a {
+    color: #fff;
+    font-size: 1.3em;
+  }
+  
+  .search-1 .menu .item img {
+    position: absolute;
+    top: calc(-5em);
+    color: #fff;
+    font-size: 1.3em;
+  }
+  
+  .search-1 .menu {
+    background-color: #E4022C;
+  }
+  
+  .search-1 .form {
+    border-left: 2px solid #E4022C;
+  }
+  
+  .search-1 .form p {
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 2.6em;
+    font-weight: bold;
+    color: #3d3d3d;
+  }
+  
+  .search-1 .form .row {
+    padding-bottom: 50px;
+  }
+  
+  .search-1 .line {
+    position: relative;
+    background-color: #E4022C;
+    height: 2px;
+    width: 100%;
+  }
+  
+  .search-1 .btn {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: #F9F9F9;
+    border: 1px solid #CFCFCF;
+  }
+  
+  .search-1 .dropdown-menu {
+    width: 100%;
+  }
+  
+  .search-1 .dropdown-item {
+    font-size: 1.5em;
+    width: 100%;
+  }
+  
+  .search-1 .button button{
+    position: absolute;
+    top: -50px;
+    background-color: #E4022C;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 2px;
+    width: 100%;
+  }
+  
 /*  */
 
 .card {
