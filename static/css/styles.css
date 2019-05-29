@@ -331,7 +331,10 @@ hr {
     background-color: #F13F3F;
     padding: 1.5rem;
 }
-
+.arrow {
+    margin-top: 9rem;
+    margin-left: -2.5rem;
+}
 /*  */
 
 
@@ -494,7 +497,9 @@ footer .copyright {
     line-height: 24px;
     font-weight: 600;
   }
-  
+  footer .nav-item a:hover {
+      color: #e4042d !important;
+  }
   footer .info i{
     margin-right: 15px;
     height: 100%;
