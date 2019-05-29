@@ -141,6 +141,11 @@ header i {
 
 /*  */
 
+.card {
+    transition: 0.2s;
+}
+
+
 .eu_parts {
     background-color: #c3092f;
 }
@@ -162,10 +167,7 @@ header i {
     width: 6rem;
     height: 5rem;
 }
-.eu_parts .card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
+
 /*  */
 
 .jp_parts {
@@ -190,10 +192,7 @@ header i {
     height: 5rem;
     width: 6rem;
 }
-.jp_parts .card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
+
 
 /*  */
 
@@ -219,10 +218,7 @@ header i {
     height: 5rem;
     width: 6rem;
 }
-.kr_parts .card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
+
 
 /*  */
 
@@ -248,8 +244,8 @@ header i {
     height: 5rem;
     width: 6rem;
 }
-.cn_parts .card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
