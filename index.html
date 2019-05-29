@@ -18,6 +18,7 @@
     <meta name="msapplication-navbutton-color" content="#000">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=90aa5863-7e93-4699-bad3-a821de24ed1a&lang=ru_RU" type="text/javascript"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
@@ -399,7 +400,64 @@
             </div>
         </div>
     </section>
-
+    <section class="benefits py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2>Почему клиенты выбирают нас</h2>
+                    <hr>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+                    <img src="static/img/benefits/1.png" />
+                    <p>Более 100 000 запчастей
+                        на складах в Уфе
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+                    <img src="static/img/benefits/2.png" />
+                    <p>Проверяем все
+                        запчасти перед выдачей
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+                    <img src="static/img/benefits/3.png" />
+                    <p>Доставка запчастей
+                        от 24 часов
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+                    <img src="static/img/benefits/4.png" />
+                    <p>Более 100 партнеров
+                        по всей России
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+                    <img src="static/img/benefits/5.png" />
+                    <p>Гарантия
+                        до 12 месяцев
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+                    <img src="static/img/benefits/6.png" />
+                    <p>Бесплатная доставка
+                        по Уфе от 10 000 руб.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+                    <img src="static/img/benefits/7.png" />
+                    <p>Возврат
+                        в течении 14 дней
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+                    <img src="static/img/benefits/8.png" />
+                    <p>Более 1000 клиентов
+                        по всей России
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="request">
         <div class="opacity">
             <div class="container py-5">
@@ -413,7 +471,28 @@
             </div>
         </div>
     </section>
-
+    <section class="contacts my-5">
+        <div id="map" style="width: 100%; height: 500px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-4 col-md-5 col-sm-12 contact my-5">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="offset-1 name">
+                                    <p>Контакты</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p><i class="fas fa-map-marker-alt"></i> г. Уфа, ул. Российская 66Б</p>
+                        <p><i class="far fa-clock"></i> Пн-Пт 10.00-20.00, Сб 10.00-18.00</p>
+                        <p class="phone"><i class="fas fa-phone"></i> +7 (960) 805-08-68</p>
+                        <p><i class="fas fa-envelope"></i> impart102@bk.ru</p>
+                        <button type="button" name="button"><a href="">Заказать консультацию</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <div class="row py-5">
@@ -462,6 +541,7 @@
 
     <script src="static/js/jquery-3.4.1.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/main.js"></script>
 </body>
 
 </html>
