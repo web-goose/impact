@@ -25,6 +25,13 @@ h2 {
     font-size: 4em;
     color: #fff;
 }
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding: 0.5rem 0;
+    font-size: 3.1em;
+    color: #3b3b3b; 
+}
 h4 {
     font-family: 'Montserrat';
     font-weight: 400;
@@ -102,6 +109,24 @@ header i {
     line-height: 1;
     padding: 0;
 }
+/*  */
+.item p {
+    color: #3b3b3b;
+}
+.item-circle {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #3b3b3b73;
+    justify-content: center;
+}
+.item img {
+    align-self: center;
+}
+.item p {
+    padding: 1rem 0;
+}
+
 
 /*  */
 
