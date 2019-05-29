@@ -54,7 +54,7 @@ button {
     border: none;
     padding: 9px 30px;
     border-radius: 5px;
-    background-color: #c3092f;
+    background-color: #e4042d;
 }
 header > .container{
     padding: 30px 0;
@@ -86,7 +86,7 @@ header i {
     margin-right: 2rem;
 }
 .navbar li a:hover {
-    color: #c3092f !important; 
+    color: #e4042d !important; 
 }
 
 /* header */
@@ -95,7 +95,7 @@ header i {
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 4.6em;
-    color: #c3092f;
+    color: #e4042d;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -139,7 +139,7 @@ header i {
 hr {
     width: 5em;
     height: 0.05rem;
-    background-color: #c3092f;
+    background-color: #e4042d;
     float: left;
 }
 .about p {
@@ -148,12 +148,21 @@ hr {
 .about .hr-1 {
     width: 50%;
     height: 0.5rem;
-    background-color: #c3092f;
+    background-color: #e4042d;
 }
-.about img {
-    z-index: -5;
-    height: 50%;;
-}
+.about .first {
+    background-image: url('../img/about/1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .about .second {
+    background-image: url('../img/about/2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
 /*  */
 .search {
@@ -161,7 +170,7 @@ hr {
     background-size: cover;
 }
 .search button {
-    box-shadow:  0 5px 0 #651223;
+    box-shadow:  0 5px 0 #800b20;
 }
 
 /*  */
@@ -172,7 +181,7 @@ hr {
 
 
 .eu_parts {
-    background-color: #c3092f;
+    background-color: #e4042d;
 }
 .eu_parts h2 {
     font-weight: 400;
@@ -440,7 +449,7 @@ hr {
   }
   
   .contacts .contact i{
-    color: #c3092f;
+    color: #e4042d;
     font-size: 1.2em;
     padding-right: 5px;
     padding-bottom: 10px;
@@ -453,7 +462,7 @@ hr {
   }
   
   .contacts .contact button{
-      color: #c3092f;
+      color: #e4042d;
     font-size: 1.2em;
     padding: 10px;
     border-radius: 2px;
@@ -474,7 +483,7 @@ footer .copyright {
   }
   
   footer .nav-item:first-child a{
-    color: #c3092f;
+    color: #e4042d;
   }
   
   footer .nav-item a{
