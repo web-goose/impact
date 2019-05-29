@@ -444,6 +444,9 @@ hr {
     background-color: #F7F7F7;
     border: 1px solid #ECECEC;
   }
+  .request-form img {
+      width: 100%;
+  }
   
   .callback input[type="checkbox"] {
     display: none;

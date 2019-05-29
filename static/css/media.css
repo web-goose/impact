@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+    body, html {
+        font-size: 8px;
+    }
+    .eu_parts h2, .jp_parts h2, .kr_parts h2, .cn_parts h2  {
+        font-size: 4em;
+    }
+}
