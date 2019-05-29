@@ -139,6 +139,119 @@ header i {
     box-shadow:  0 5px 0 #651223;
 }
 
+/*  */
+
+.eu_parts {
+    background-color: #c3092f;
+}
+.eu_parts h2 {
+    font-weight: 400;
+    font-size: 6.7em;
+}
+.eu_parts p {
+    font-size: 2.1em;
+}
+.eu_parts .card {
+    width: 12rem;
+    height: 9rem;
+    margin: 1rem 1rem;
+    justify-content: center;
+}
+.eu_parts .card img {
+    align-self: center;
+    width: 6rem;
+    height: 5rem;
+}
+.eu_parts .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+/*  */
+
+.jp_parts {
+    background-color: #3b3b3b;
+}
+.jp_parts h2 {
+    font-weight: 400;
+    font-size: 6.7em;
+}
+.jp_parts p {
+    font-size: 2.1em;
+}
+.jp_parts .card {
+    width: 16.5rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 1rem 1rem;
+    justify-content: center;
+}
+.jp_parts .card img {
+    align-self: center;
+    height: 5rem;
+    width: 6rem;
+}
+.jp_parts .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+/*  */
+
+.kr_parts {
+    background-color: #416191;
+}
+.kr_parts h2 {
+    font-weight: 400;
+    font-size: 6.7em;
+}
+.kr_parts p {
+    font-size: 2.1em;
+}
+.kr_parts .card {
+    width: 16.5rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 1rem 1rem;
+    justify-content: center;
+}
+.kr_parts .card img {
+    align-self: center;
+    height: 5rem;
+    width: 6rem;
+}
+.kr_parts .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+/*  */
+
+.cn_parts {
+    background-color: #328838;
+}
+.cn_parts h2 {
+    font-weight: 400;
+    font-size: 6.7em;
+}
+.cn_parts p {
+    font-size: 2.1em;
+}
+.cn_parts .card {
+    width: 16.5rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 1rem 1rem;
+    justify-content: center;
+}
+.cn_parts .card img {
+    align-self: center;
+    height: 5rem;
+    width: 6rem;
+}
+.cn_parts .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
 
 /*  */
 
