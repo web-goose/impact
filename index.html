@@ -2,746 +2,736 @@
 <html lang="ru">
 
 <head>
-    <meta charset="utf-8">
-    <title>Impart</title>
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:image" content="path/to/image.jpg">
-    <link rel="shortcut icon" href="static/img/" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#000">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#000">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/styles.css">
-    <link rel="stylesheet" href="static/css/media.css">
+  <meta charset="utf-8">
+  <title>Impart</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="static/img/" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=90aa5863-7e93-4699-bad3-a821de24ed1a&lang=ru_RU" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/styles.css">
+  <link rel="stylesheet" href="static/css/media.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row d-flex">
-                <div class="col-12 col-lg-4 col-xl-3 col-md-6 text-md-left text-center mb-5 mb-lg-0">
-                    <img src="static/img/header/logo.png" class="float-lg-left mr-3" width="62px" height="62px" />
-                    <p class="logo text-uppercase">impart</p>
-                    <p class="logo-1">автозапчасти легко</p>
-                </div>
-                <div class="col-12 col-lg-3 col-xl-3 col-md-6 my-3 my-lg-0 align-self-center text-lg-left text-center">
-                    <i class="fas fa-map-marker-alt float-lg-left"></i>
-                    <div class="float-lg-left">
-                        <p class="font-weight-bold">Наш адрес</p>
-                        <p>г. Уфа, ул. Российская 66Б</p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-xl-3 col-md-6 my-3 my-lg-0 align-self-center text-lg-left text-center ">
-                    <i class="far fa-clock float-lg-left"></i>
-                    <div class="float-lg-left">
-                        <p class="font-weight-bold">Режим работы</p>
-                        <p>с пн - пт c 10:00 до 20:00</p>
-                        <p>сб с 10:00 до 18:00</p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-xl-3 col-md-6 mt-4 mt-lg-0 text-md-right text-center align-self-center">
-                    <p class="font-weight-bold" style="font-size: 2.3em">+7 (960) 805-08-68</p>
-                    <a href=""><button class="float-lg-right">заказать звонок</button></a>
-                </div>
-            </div>
+  <header>
+    <div class="container px-md-0">
+      <div class="row d-flex">
+        <div class="col-12 col-lg-3 col-xl-3 col-md-3 text-md-left text-center mb-5 mb-md-0">
+          <img src="static/img/header/logo.png" class="float-md-left mr-3" width="62px" height="62px" />
+          <p class="logo text-uppercase">impart</p>
+          <p class="logo-1">автозапчасти легко</p>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container px-0">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Главная</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">О Нас</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Оплата и доставка</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Гарантия и возврат</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Контакты</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section class="search py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-xl-7 col-12">
-                    <h1>Онлайн гипермаркет
-                        запчастей для иномарок
-                    </h1>
-                    <h4 class="pt-4 pb-5">Ваш надежный помощник в деле покупок
-                        автомобильных запчастей.
-                    </h4>
-                    <a href=""><button class="mt-4 mb-5">Найти запчасти</button></a>
-                </div>
-            </div>
+        <div class="col-12 col-lg-3 col-xl-3 col-md-3 my-3 my-md-0 align-self-lg-center text-md-left text-center">
+          <i class="fas fa-map-marker-alt float-md-left"></i>
+          <div class="float-md-left">
+            <p class="font-weight-bold">Наш адрес</p>
+            <p>г. Уфа, ул. Российская 66Б</p>
+          </div>
         </div>
-    </section>
-    <section class="search-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 menu">
-                    <div class="row">
-                        <div class="item col-md-2 col-12"><a href="">ЕВРОПЕЙСКИЕ АВТО</a></div>
-                        <div class="item col-md-2 col-12"><a href="">ЯПОНСКИЕ АВТО</a></div>
-                        <div class="item col-md-2 col-12"><a href="">КОРЕЙСКИЕ АВТО</a></div>
-                        <div class="item col-md-2 col-12"><a href="">КИТАЙСКИЕ АВТО</a></div>
-                        <div class="item col-md-4 col-12 d-md-block d-none"><img src="static/img/search/car.png"
-                                width="100%" alt=""></div>
-                    </div>
-                </div>
-                <div class="col-12 form">
-                    <p class="offset-lg-1 ">Найдите запчасти для Вашего<br />авто прямо сейчас</p>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-5 offset-lg-1 my-3">
-                            <div class="dropdown show">
-                                <a class="btn dropdown-toggle" href="#" role="button" id="ddm1" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Марка автомобиля
-                                </a>
+        <div class="col-12 col-lg-3 col-xl-3 col-md-3 my-3 my-md-0 align-self-lg-center text-md-left text-center ">
+          <i class="far fa-clock float-md-left"></i>
+          <div class="float-md-left">
+            <p class="font-weight-bold">Режим работы</p>
+            <p>с пн - пт c 10:00 до 20:00</p>
+            <p>сб с 10:00 до 18:00</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-xl-3 col-md-3 mt-4 mt-md-0 text-md-right text-center align-self-lg-center">
+          <p class="font-weight-bold tel" style="font-size: 2.3em">+7 (960) 805-08-68</p>
+          <a href=""><button class="float-lg-right">заказать звонок</button></a>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container px-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О Нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Оплата и доставка</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Гарантия и возврат</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="search py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-xl-7 col-12">
+          <h1>Онлайн гипермаркет
+            запчастей для иномарок
+          </h1>
+          <h4 class="pt-4 pb-5">Ваш надежный помощник в деле покупок
+            автомобильных запчастей.
+          </h4>
+          <a href=""><button class="mt-4 mb-5">Найти запчасти</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="search-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 menu">
+          <div class="row">
+            <div class="item col-md-2 col-12"><a href="">ЕВРОПЕЙСКИЕ АВТО</a></div>
+            <div class="item col-md-2 col-12"><a href="">ЯПОНСКИЕ АВТО</a></div>
+            <div class="item col-md-2 col-12"><a href="">КОРЕЙСКИЕ АВТО</a></div>
+            <div class="item col-md-2 col-12"><a href="">КИТАЙСКИЕ АВТО</a></div>
+            <div class="item col-md-4 col-12 d-md-block d-none"><img src="static/img/search/car.png" width="100%" alt=""></div>
+          </div>
+        </div>
+        <div class="col-12 form">
+          <p class="offset-lg-1 ">Найдите запчасти для Вашего<br />авто прямо сейчас</p>
+          <div class="row">
+            <div class="col-lg-3 col-md-5 offset-lg-1 my-3">
+              <div class="dropdown show">
+                <a class="btn dropdown-toggle" href="#" role="button" id="ddm1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Марка автомобиля
+                </a>
 
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">1</a>
-                                    <a class="dropdown-item" href="#">2</a>
-                                    <a class="dropdown-item" href="#">3</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-5 my-3">
-                            <div class="dropdown show">
-                                <a class="btn dropdown-toggle" href="#" role="button" id="ddm2" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Модель автомобиля
-                                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">1</a>
+                  <a class="dropdown-item" href="#">2</a>
+                  <a class="dropdown-item" href="#">3</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-5 my-3">
+              <div class="dropdown show">
+                <a class="btn dropdown-toggle" href="#" role="button" id="ddm2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Модель автомобиля
+                </a>
 
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">1</a>
-                                    <a class="dropdown-item" href="#">2</a>
-                                    <a class="dropdown-item" href="#">3</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-10 my-3">
-                            <div class="dropdown show">
-                                <a class="btn dropdown-toggle" href="#" role="button" id="ddm3" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Год выпуска
-                                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">1</a>
+                  <a class="dropdown-item" href="#">2</a>
+                  <a class="dropdown-item" href="#">3</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-10 my-3">
+              <div class="dropdown show">
+                <a class="btn dropdown-toggle" href="#" role="button" id="ddm3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Год выпуска
+                </a>
 
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">1</a>
-                                    <a class="dropdown-item" href="#">2</a>
-                                    <a class="dropdown-item" href="#">3</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">1</a>
+                  <a class="dropdown-item" href="#">2</a>
+                  <a class="dropdown-item" href="#">3</a>
                 </div>
-                <div class="col-3 col-lg-3 col-md-2 p-0">
-                    <div class="line"></div>
-                </div>
-                <div class="col-lg-3 col-md-5 offset-lg-1 col-8 p-lg-0">
-                    <div class="button"> <a href=""><button class="my-5">Найти запчасти</button> </a></div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <section class="all_goods py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 py-5">
-                    <h3 class="py-5">Все товары удобно распределены по категориям,<br>
-                        куда входят запчасти для:
-                    </h3>
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
-                    <div class="item text-center">
-                        <div class="item-circle d-flex">
-                            <img src="static/img/all_goods/1.png" />
-                        </div>
-                        <p>кузова</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
-                    <div class="item text-center">
-                        <div class="item-circle d-flex">
-                            <img src="static/img/all_goods/2.png" />
-                        </div>
-                        <p>двигателя</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
-                    <div class="item text-center">
-                        <div class="item-circle d-flex">
-                            <img src="static/img/all_goods/3.png" />
-                        </div>
-                        <p>тормозной системы</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
-                    <div class="item text-center">
-                        <div class="item-circle d-flex">
-                            <img src="static/img/all_goods/4.png" />
-                        </div>
-                        <p>ходовой части</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
-                    <div class="item text-center">
-                        <div class="item-circle d-flex">
-                            <img src="static/img/all_goods/5.png" />
-                        </div>
-                        <p>рулевого управления</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
-                    <div class="item text-center">
-                        <div class="item-circle d-flex">
-                            <img src="static/img/all_goods/6.png" />
-                        </div>
-                        <p>оптики и зеркал</p>
-                    </div>
-                </div>
-            </div>
+        <div class="col-3 col-lg-3 col-md-2 p-0">
+          <div class="line"></div>
         </div>
-    </section>
-    <section class="eu_parts py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <h2>Автозапчасти</h2>
-                    <p class="float-right mr-xl-3 mr-0">для европейских<br>автомобилей</p>
-                    <img src="static/img/eu_parts/car.png" style="width: 100%" />
-                </div>
-                <div class="col-12 col-lg-6 pt-4">
-                    <div class="row pl-0 pl-lg-3 justify-content-center justify-content-lg-start">
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_1.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_2.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_3.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_4.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_5.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_6.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_7.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_8.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_9.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_10.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_11.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/eu_parts/catalog-eu_12.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-lg-3 col-md-5 offset-lg-1 col-8 p-lg-0">
+          <div class="button"> <a href=""><button class="my-5">Найти запчасти</button> </a></div>
         </div>
-    </section>
-    <section class="jp_parts py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <h2>Автозапчасти</h2>
-                    <p class="float-right mr-xl-3 mr-0">для японских<br>автомобилей</p>
-                    <img src="static/img/jp_parts/car.png" style="width: 100%" />
-                </div>
-                <div class="col-12 col-lg-6 pt-4">
-                    <div class="row pl-0 pl-lg-3 justify-content-center justify-content-lg-start">
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_1.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_2.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_3.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_4.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_5.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_6.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_7.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_8.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/jp_parts/catalog-pic_9.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+  <section class="all_goods py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 py-5">
+          <h3 class="py-5">Все товары удобно распределены по категориям,<br>
+            куда входят запчасти для:
+          </h3>
         </div>
-    </section>
-    <section class="kr_parts py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <h2>Автозапчасти</h2>
-                    <p class="float-right mr-xl-3 mr-0">для корейских<br>автомобилей</p>
-                    <img src="static/img/kr_parts/car.png" style="width: 100%" />
-                </div>
-                <div class="col-12 col-lg-6 pt-4">
-                    <div class="row pl-0 pl-lg-3 justify-content-center justify-content-lg-start">
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/kr_parts/catalog-sk_1.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/kr_parts/catalog-sk_2.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/kr_parts/catalog-sk_3.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/kr_parts/catalog-sk_4.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/kr_parts/catalog-sk_5.png">
-                        </div>
-                    </div>
-                </div>
+        <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="item text-center">
+            <div class="item-circle d-flex">
+              <img src="static/img/all_goods/1.png" />
             </div>
+            <p>кузова</p>
+          </div>
         </div>
-    </section>
-    <section class="cn_parts py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <h2>Автозапчасти</h2>
-                    <p class="float-right mr-xl-3 mr-0">для китайских<br>автомобилей</p>
-                    <img src="static/img/cn_parts/car.png" style="width: 100%" />
-                </div>
-                <div class="col-12 col-lg-6 pt-4">
-                    <div class="row pl-0 pl-lg-3 justify-content-center justify-content-lg-start">
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/cn_parts/catalog-ch_1.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/cn_parts/catalog-ch_2.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/cn_parts/catalog-ch_3.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/cn_parts/catalog-ch_5.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/cn_parts/catalog-ch_6.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/cn_parts/catalog-ch_10.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/cn_parts/haima.png">
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="static/img/cn_parts/luxgen.png">
-                        </div>
-                    </div>
-                </div>
+        <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="item text-center">
+            <div class="item-circle d-flex">
+              <img src="static/img/all_goods/2.png" />
             </div>
+            <p>двигателя</p>
+          </div>
         </div>
-    </section>
-    <section class="fast_and_cheep py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 col-lg-10 my-5">
-                    <h2>Для того, чтобы быстро и выгодно купить
-                        любые запчасти на ваш автомобиль
-                        достаточно сделать следующее:
-                    </h2>
-                    <hr>
-                </div>
+        <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="item text-center">
+            <div class="item-circle d-flex">
+              <img src="static/img/all_goods/3.png" />
             </div>
-            <div class="row mt-4">
-                <div class="col-12 col-sm-6 col-lg-3 d-flex align-bottom">
-                    <div class="item col-11">
-                        <div class="item-head d-flex align-items-center">
-                            <img src="static/img/fast_and_cheep/1.png" />
-                            <p><strong>Сделать запрос</strong></p>
-                        </div>
-                        <p>В любое удобное для вас
-                            время на сайте или
-                            позвонить по номеру
-                            +7 (960) 805-08-68
-                        </p>
-                    </div>
-                    <div class="col-1 align-self-center">
-                        <img src="static/img/fast_and_cheep/arrow.png" class="arrow" />
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 d-flex align-bottom">
-                    <div class="item col-11">
-                        <div class="item-head d-flex align-items-center">
-                            <img src="static/img/fast_and_cheep/2.png" />
-                            <p><strong>Выбрать запчасть</strong></p>
-                        </div>
-                        <p>Из вариантов с
-                            оптимальной для вас
-                            ценой, качеством и
-                            сроком доставки.
-                        </p>
-                    </div>
-                    <div class="col-1 align-self-center">
-                        <img src="static/img/fast_and_cheep/arrow.png" class="arrow" />
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 d-flex align-bottom">
-                    <div class="item col-11">
-                        <div class="item-head d-flex align-items-center">
-                            <img src="static/img/fast_and_cheep/3.png">
-                            <p><strong>Оплатить заказ</strong></p>
-                        </div>
-                        <p>Можно дистанционно
-                            или в магазине наличными
-                            и картой.
-                        </p>
-                    </div>
-                    <div class="col-1 align-self-center">
-                        <img src="static/img/fast_and_cheep/arrow.png" class="arrow" />
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 d-flex align-bottom">
-                    <div class="item col-11">
-                        <div class="item-head d-flex align-items-center">
-                            <img src="static/img/fast_and_cheep/4.png" />
-                            <p><strong>Получить товар</strong></p>
-                        </div>
-                        <p>Можно в магазине или
-                            оформить доставку в
-                            удобное для вас мест.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <p>тормозной системы</p>
+          </div>
         </div>
-    </section>
-    <section class="request-form py-5">
-        <div class="container py-5">
-            <div class="row text-center">
-                <div class="col-12 col-lg-6 col-xl-4 my-4 my-xl-0">
-                    <a href="#"><img src="static/img/request-form/1.png" /></a>
-                </div>
-                <div class="col-12 col-lg-6 col-xl-4 my-4 my-xl-0">
-                    <a href="#"><img src="static/img/request-form/2.png" /></a>
-                </div>
-                <div class="col-12 col-lg-12 col-xl-4 my-4 my-xl-0">
-                    <a href="#"><img src="static/img/request-form/3.png" /></a>
-                </div>
+        <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="item text-center">
+            <div class="item-circle d-flex">
+              <img src="static/img/all_goods/4.png" />
             </div>
-            <div class="row mt-5 pt-5 justify-content-center">
-                <div class="col-lg-3 col-md-4 col-12 my-2">
-                    <input type="text" placeholder="Контактный телефон" />
-                </div>
-                <a href="#" class="mt-2"><button>Заказать звонок</button></a>
-            </div>
+            <p>ходовой части</p>
+          </div>
         </div>
-    </section>
-    <section class="about">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h1>О нас</h1>
-                    <hr>
-                </div>
-                <div class="col-12 col-lg-7">
-                    <p>IMPART – ваш надежный помощник в деле приобретения автозапчастей.
-                        Мы специализируемся на импортных брендах автомобилей, в ассортименте
-                        нашего интернет магазина представлены запчасти для популярных марок
-                        европейских, японских, китайских и корейских машин. Все товары каталога
-                        сертифицированы, обеспечены гарантией от производителя.
-                    </p>
-                    <h5 class="my-5">Почему нас выбирают?</h5>
-                    <p>Наши специалисты обеспечивают быстрое и качественное обслуживание
-                        клиентов. Мы наладили прямые партнерские отношения с крупными поставщиками
-                        и производителями запчастей. Исключение посредников и издержек складского
-                        хранения позволило уменьшить конечную стоимость товара для вас. Процесс покупки
-                        состоит из простых действий, вы тратите минимум своего времени и находитесь
-                        в курсе состояния вашего заказа через удобное оповещение. А быстрые сроки
-                        поставок запчастей с наших локальных складов позволяют получить ваш заказ
-                        в течение 24 часов.
-                    </p>
-                </div>
-                <div class="col-5 first">
-                </div>
-                <div class="col-12 my-5">
-                    <hr class="hr-1" width="auto">
-                </div>
-                <div class="col-md-6 col-12 second"></div>
-                <div class="col-12 col-lg-6">
-                    <p class="py-5">У нас имеются и оригинальные, и аналоговые запчасти. Не желаете идти на
-                        компромисс, хотите сохранить официальную гарантию новой машины и ищете
-                        максимального качества и оптимальной цены – приобретайте у нас
-                        оригинальные детали и узлы. Владельцам не слишком новых моделей лучше
-                        подойдут аналоги, они позволяют неплохо сэкономить, хотя отличаются
-                        сопоставимыми с оригиналами техническими параметрами, а многие бренды
-                        запчастей поставляют свои детали на конвейер производителей автомобилей.
-                        И мы знаем их! Таким образом, можно получить оригинальное качество по
-                        цене налога.
-                    </p>
-                    <p>
-                        Общее число товаров в каталоге превышает 1 миллион. Чтобы вы без проблем
-                        приобрели деталь, соответствующую марке, модели, комплектации и году
-                        выпуска автомобиля, консультанты интернет магазина всегда на связи и
-                        готовы дать профессиональные рекомендации.
-                    </p>
-                    <p>
-                        Мы поможем организовать доставку и по городу, и по региона
-                    </p>
-                    <a href=""><button class="my-5">Подобрать запчасти</button></a>
-                </div>
+        <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="item text-center">
+            <div class="item-circle d-flex">
+              <img src="static/img/all_goods/5.png" />
             </div>
+            <p>рулевого управления</p>
+          </div>
         </div>
-    </section>
-    <section class="best_parts py-4">
-        <img src="static/img/best_parts/car.png" />
-        <div class="container py-3">
-            <div class="row">
-                <div class="col-12 pt-5 my-3">
-                    <h2>Лучшие запчасти — в нашем<br>
-                        интернет-магазине</h2>
-                </div>
-                <div class="col-12 col-xl-9 py-5 mt-3">
-                    <p class="mb-5">
-                        Тем не менее, полностью застраховать транспортное средство от поломок и неисправностей
-                        невозможно. Если таковые и возникают, то являются характерными и распространенными для
-                        всех современных автомобилей.
-                    </p>
-                    <p class="my-3">
-                        Другое дело, что найти запчасти и другие товары для них довольно просто. Наш интернет-магазин
-                        предлагает самый широкий ассортимент товаров для автомобилей иностранного производства.
-                        Наши услуги выгодно выделяются на фоне конкурентов. Ведь только мы предлагаем идеальное
-                        соотношение цены и качества, что по своей сути — основной фактор, побуждающий клиентов
-                        совершать покупки.
-                    </p>
-                </div>
+        <div class="col-6 col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="item text-center">
+            <div class="item-circle d-flex">
+              <img src="static/img/all_goods/6.png" />
             </div>
+            <p>оптики и зеркал</p>
+          </div>
         </div>
-    </section>
-    <section class="callback py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2>Оставьте заявку</h2>
-                    <p class="desc">на быстрый подбор необходимых запчастей<br />для Вашего авто</p>
-                    <hr>
-                </div>
-            </div>
-            <div class="row my-2">
-                <div class="col-lg-3 col-md-4 col-12 my-2"><input type="text" placeholder="Модель автомобиля" /></div>
-                <div class="col-lg-3 col-md-4 col-12 my-2"><input type="text" placeholder="Год выпуска" /></div>
-                <div class="col-lg-3 col-md-4 col-12 my-2"><input type="text" placeholder="VIN-код" /></div>
-            </div>
-            <div class="row my-3">
-                <div class="col-lg-3 col-md-4 col-12  my-2"><input type="text" placeholder="Контактный телефон" /></div>
-                <div class="col-lg-6 col-md-8 col-12  my-2"><input type="text" placeholder="Необходимые запчасти" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-8 col-12  my-2">
-                    <div class="custom-controls">
-                        <input type="checkbox" id="checkbox">
-                        <label for="checkbox" class="labelcb"> <span class="custom-checkbox"></span>Даю своё согласие на
-                            обработку персональных данных.</label>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-4 col-12 text-md-right text-center"><button><a href="">Подобрать
-                            запчасти</a></button></div>
-            </div>
+      </div>
+    </div>
+  </section>
+  <section class="eu_parts py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2>Автозапчасти</h2>
+          <p class="float-right mr-xl-3 mr-0">для европейских<br>автомобилей</p>
+          <img src="static/img/eu_parts/car.png" style="width: 100%" />
         </div>
-        </div>
-    </section>
-    <section class="benefits py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2>Почему клиенты выбирают нас</h2>
-                    <hr>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
-                    <img src="static/img/benefits/1.png" />
-                    <p>Более 100 000 запчастей
-                        на складах в Уфе
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
-                    <img src="static/img/benefits/2.png" />
-                    <p>Проверяем все
-                        запчасти перед выдачей
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
-                    <img src="static/img/benefits/3.png" />
-                    <p>Доставка запчастей
-                        от 24 часов
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
-                    <img src="static/img/benefits/4.png" />
-                    <p>Более 100 партнеров
-                        по всей России
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
-                    <img src="static/img/benefits/5.png" />
-                    <p>Гарантия
-                        до 12 месяцев
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
-                    <img src="static/img/benefits/6.png" />
-                    <p>Бесплатная доставка
-                        по Уфе от 10 000 руб.
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
-                    <img src="static/img/benefits/7.png" />
-                    <p>Возврат
-                        в течении 14 дней
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
-                    <img src="static/img/benefits/8.png" />
-                    <p>Более 1000 клиентов
-                        по всей России
-                    </p>
-                </div>
+        <div class="col-12 col-lg-6 pt-4">
+          <div class="row pl-0 pl-lg-3 justify-content-center justify-content-lg-start">
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_1.png">
             </div>
-        </div>
-    </section>
-    <section class="request">
-        <div class="opacity py-5">
-            <div class="container py-5">
-                <div class="row text-center">
-                    <div class="col-12 py-4">
-                        <h2>Не нашли нужной запчасти на сайте?</h2>
-                        <h4 class="mb-5">Оставьте заявку и мы оперативно подберем ее, со скидкой!</h4>
-                        <a href=""><button class="my-5">ПОМОЧЬ В ПОИСКЕ ЗАПЧАСТИ</button></a>
-                    </div>
-                </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_2.png">
             </div>
-        </div>
-    </section>
-    <section class="contacts my-5">
-        <div id="map" style="width: 100%; height: 500px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-4 col-md-5 col-7 col-sm-4 contact my-5">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="offset-1 name">
-                                    <p>Контакты</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p><i class="fas fa-map-marker-alt"></i> г. Уфа, ул. Российская 66Б</p>
-                        <p><i class="far fa-clock"></i> Пн-Пт 10.00-20.00, Сб 10.00-18.00</p>
-                        <p class="phone"><i class="fas fa-phone"></i> +7 (960) 805-08-68</p>
-                        <p><i class="fas fa-envelope"></i> impart102@bk.ru</p>
-                        <button type="button" name="button"><a href="">Заказать консультацию</a></button>
-                    </div>
-                </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_3.png">
             </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="row py-5">
-                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 Woffset-xl-0 offset-lg-0 offset-md-1 py-1"> <img
-                        src="static/img/header/logo.png" class="float-left" width="62px" height="62px" />
-                    <p class="logo text-uppercase">impart</p>
-                    <p class="logo-1">автозапчасти легко</p>
-                    <p class="copyright py-4">Copyright © 2019 Федеральная сеть магазинов
-                        автозапчастей для иномарок.</p>
-                </div>
-                <div
-                    class="col-xl-2 col-lg-2 col-md-5 col-sm-12 col-12 text-center offset-xl-0 offset-lg-0 offset-md-1 p-lg-0 py-2">
-                    <div class="nav d-block text-md-left">
-                        <div class="nav-item"><a href="#">Главная</a></div>
-                        <div class="nav-item"><a href="#">О нас</a></div>
-                        <div class="nav-item"><a href="#">Оплата и доставка</a></div>
-                        <div class="nav-item"><a href="#">Гарантия и возврат</a></div>
-                        <div class="nav-item"><a href="#">Франшиза</a></div>
-                        <div class="nav-item"><a href="#">Контакты</a></div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12 text-center text-md-left offset-xl-0 offset-lg-0 offset-md-1 p-lg-0 info py-2">
-                    <div class="address d-md-flex">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p><strong>Наш адрес:</strong>
-                            <br />г. Уфа, ул. Российская 66Б</p>
-                    </div>
-                    <div class="time d-md-flex">
-                        <i class="far fa-clock"></i>
-                        <p><strong>Режим работы:</strong>
-                            <br />с пн - пт c 10:00 до 20:00
-                            <br />сб с 10:00 до 18:00</p>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12 text-center offset-xl-0 offset-lg-0 offset-md-1 text-lg-right  text-md-left p-lg-0">
-                    <div class="tel"><a href="tel:89608050868">+7 (960) 805-08-68</a></div>
-                    <div class="button">
-                        <a href=""><button>заказать звонок</button></a>
-                    </div>
-                </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_4.png">
             </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_5.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_6.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_7.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_8.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_9.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_10.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_11.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/eu_parts/catalog-eu_12.png">
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
+  <section class="jp_parts py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2>Автозапчасти</h2>
+          <p class="float-right mr-xl-3 mr-0">для японских<br>автомобилей</p>
+          <img src="static/img/jp_parts/car.png" style="width: 100%" />
+        </div>
+        <div class="col-12 col-lg-6 pt-4">
+          <div class="row pl-0 pl-lg-3 justify-content-center justify-content-lg-start">
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_1.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_2.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_3.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_4.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_5.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_6.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_7.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_8.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/jp_parts/catalog-pic_9.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="kr_parts py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2>Автозапчасти</h2>
+          <p class="float-right mr-xl-3 mr-0">для корейских<br>автомобилей</p>
+          <img src="static/img/kr_parts/car.png" style="width: 100%" />
+        </div>
+        <div class="col-12 col-lg-6 pt-4">
+          <div class="row pl-0 pl-lg-3 justify-content-center justify-content-lg-start">
+            <div class="card">
+              <img class="card-img-top" src="static/img/kr_parts/catalog-sk_1.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/kr_parts/catalog-sk_2.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/kr_parts/catalog-sk_3.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/kr_parts/catalog-sk_4.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/kr_parts/catalog-sk_5.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cn_parts py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2>Автозапчасти</h2>
+          <p class="float-right mr-xl-3 mr-0">для китайских<br>автомобилей</p>
+          <img src="static/img/cn_parts/car.png" style="width: 100%" />
+        </div>
+        <div class="col-12 col-lg-6 pt-4">
+          <div class="row pl-0 pl-lg-3 justify-content-center justify-content-lg-start">
+            <div class="card">
+              <img class="card-img-top" src="static/img/cn_parts/catalog-ch_1.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/cn_parts/catalog-ch_2.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/cn_parts/catalog-ch_3.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/cn_parts/catalog-ch_5.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/cn_parts/catalog-ch_6.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/cn_parts/catalog-ch_10.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/cn_parts/haima.png">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="static/img/cn_parts/luxgen.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="fast_and_cheep py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-10 my-5">
+          <h2>Для того, чтобы быстро и выгодно купить
+            любые запчасти на ваш автомобиль
+            достаточно сделать следующее:
+          </h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex align-bottom">
+          <div class="item col-11">
+            <div class="item-head d-flex align-items-center">
+              <img src="static/img/fast_and_cheep/1.png" />
+              <p><strong>Сделать запрос</strong></p>
+            </div>
+            <p>В любое удобное для вас
+              время на сайте или
+              позвонить по номеру
+              +7 (960) 805-08-68
+            </p>
+          </div>
+          <div class="col-1 align-self-center">
+            <img src="static/img/fast_and_cheep/arrow.png" class="arrow" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 d-flex align-bottom">
+          <div class="item col-11">
+            <div class="item-head d-flex align-items-center">
+              <img src="static/img/fast_and_cheep/2.png" />
+              <p><strong>Выбрать запчасть</strong></p>
+            </div>
+            <p>Из вариантов с
+              оптимальной для вас
+              ценой, качеством и
+              сроком доставки.
+            </p>
+          </div>
+          <div class="col-1 align-self-center">
+            <img src="static/img/fast_and_cheep/arrow.png" class="arrow" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 d-flex align-bottom">
+          <div class="item col-11">
+            <div class="item-head d-flex align-items-center">
+              <img src="static/img/fast_and_cheep/3.png">
+              <p><strong>Оплатить заказ</strong></p>
+            </div>
+            <p>Можно дистанционно
+              или в магазине наличными
+              и картой.
+            </p>
+          </div>
+          <div class="col-1 align-self-center">
+            <img src="static/img/fast_and_cheep/arrow.png" class="arrow" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 d-flex align-bottom">
+          <div class="item col-11">
+            <div class="item-head d-flex align-items-center">
+              <img src="static/img/fast_and_cheep/4.png" />
+              <p><strong>Получить товар</strong></p>
+            </div>
+            <p>Можно в магазине или
+              оформить доставку в
+              удобное для вас мест.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="request-form py-5">
+    <div class="container py-5">
+      <div class="row text-center">
+        <div class="col-12 col-lg-6 col-xl-4 my-4 my-xl-0">
+          <a href="#"><img src="static/img/request-form/1.png" /></a>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 my-4 my-xl-0">
+          <a href="#"><img src="static/img/request-form/2.png" /></a>
+        </div>
+        <div class="col-12 col-lg-12 col-xl-4 my-4 my-xl-0">
+          <a href="#"><img src="static/img/request-form/3.png" /></a>
+        </div>
+      </div>
+      <div class="row mt-5 pt-5 justify-content-center">
+        <div class="col-lg-3 col-md-4 col-12 my-2">
+          <input type="text" placeholder="Контактный телефон" />
+        </div>
+        <a href="#" class="mt-2"><button>Заказать звонок</button></a>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 my-5">
+          <h1>О нас</h1>
+          <hr>
+        </div>
+        <div class="col-12 col-lg-7">
+          <p>IMPART – ваш надежный помощник в деле приобретения автозапчастей.
+            Мы специализируемся на импортных брендах автомобилей, в ассортименте
+            нашего интернет магазина представлены запчасти для популярных марок
+            европейских, японских, китайских и корейских машин. Все товары каталога
+            сертифицированы, обеспечены гарантией от производителя.
+          </p>
+          <h5 class="my-5">Почему нас выбирают?</h5>
+          <p>Наши специалисты обеспечивают быстрое и качественное обслуживание
+            клиентов. Мы наладили прямые партнерские отношения с крупными поставщиками
+            и производителями запчастей. Исключение посредников и издержек складского
+            хранения позволило уменьшить конечную стоимость товара для вас. Процесс покупки
+            состоит из простых действий, вы тратите минимум своего времени и находитесь
+            в курсе состояния вашего заказа через удобное оповещение. А быстрые сроки
+            поставок запчастей с наших локальных складов позволяют получить ваш заказ
+            в течение 24 часов.
+          </p>
+        </div>
+        <div class="col-5 first">
+        </div>
+        <div class="col-12 my-5">
+          <hr class="hr-1" width="auto">
+        </div>
+        <div class="col-md-6 col-12 second"></div>
+        <div class="col-12 col-lg-6">
+          <p class="py-5">У нас имеются и оригинальные, и аналоговые запчасти. Не желаете идти на
+            компромисс, хотите сохранить официальную гарантию новой машины и ищете
+            максимального качества и оптимальной цены – приобретайте у нас
+            оригинальные детали и узлы. Владельцам не слишком новых моделей лучше
+            подойдут аналоги, они позволяют неплохо сэкономить, хотя отличаются
+            сопоставимыми с оригиналами техническими параметрами, а многие бренды
+            запчастей поставляют свои детали на конвейер производителей автомобилей.
+            И мы знаем их! Таким образом, можно получить оригинальное качество по
+            цене налога.
+          </p>
+          <p>
+            Общее число товаров в каталоге превышает 1 миллион. Чтобы вы без проблем
+            приобрели деталь, соответствующую марке, модели, комплектации и году
+            выпуска автомобиля, консультанты интернет магазина всегда на связи и
+            готовы дать профессиональные рекомендации.
+          </p>
+          <p>
+            Мы поможем организовать доставку и по городу, и по региона
+          </p>
+          <a href=""><button class="my-5">Подобрать запчасти</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="best_parts py-4">
+    <img src="static/img/best_parts/car.png" />
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-12 pt-5 my-3">
+          <h2>Лучшие запчасти — в нашем<br>
+            интернет-магазине</h2>
+        </div>
+        <div class="col-12 col-xl-9 py-5 mt-3">
+          <p class="mb-5">
+            Тем не менее, полностью застраховать транспортное средство от поломок и неисправностей
+            невозможно. Если таковые и возникают, то являются характерными и распространенными для
+            всех современных автомобилей.
+          </p>
+          <p class="my-3">
+            Другое дело, что найти запчасти и другие товары для них довольно просто. Наш интернет-магазин
+            предлагает самый широкий ассортимент товаров для автомобилей иностранного производства.
+            Наши услуги выгодно выделяются на фоне конкурентов. Ведь только мы предлагаем идеальное
+            соотношение цены и качества, что по своей сути — основной фактор, побуждающий клиентов
+            совершать покупки.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="callback py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-5">
+          <h2>Оставьте заявку</h2>
+          <p class="desc">на быстрый подбор необходимых запчастей<br />для Вашего авто</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row my-2">
+        <div class="col-lg-3 col-md-4 col-12 my-2"><input type="text" placeholder="Модель автомобиля" /></div>
+        <div class="col-lg-3 col-md-4 col-12 my-2"><input type="text" placeholder="Год выпуска" /></div>
+        <div class="col-lg-3 col-md-4 col-12 my-2"><input type="text" placeholder="VIN-код" /></div>
+      </div>
+      <div class="row my-3">
+        <div class="col-lg-3 col-md-4 col-12  my-2"><input type="text" placeholder="Контактный телефон" /></div>
+        <div class="col-lg-6 col-md-8 col-12  my-2"><input type="text" placeholder="Необходимые запчасти" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-8 col-12  my-2">
+          <div class="custom-controls">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="labelcb"> <span class="custom-checkbox"></span>Даю своё согласие на
+              обработку персональных данных.</label>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-12 text-md-right text-center"><button><a href="">Подобрать
+              запчасти</a></button></div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="benefits py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-5">
+          <h2>Почему клиенты выбирают нас</h2>
+          <hr>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+          <img src="static/img/benefits/1.png" />
+          <p>Более 100 000 запчастей
+            на складах в Уфе
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+          <img src="static/img/benefits/2.png" />
+          <p>Проверяем все
+            запчасти перед выдачей
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+          <img src="static/img/benefits/3.png" />
+          <p>Доставка запчастей
+            от 24 часов
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+          <img src="static/img/benefits/4.png" />
+          <p>Более 100 партнеров
+            по всей России
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+          <img src="static/img/benefits/5.png" />
+          <p>Гарантия
+            до 12 месяцев
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+          <img src="static/img/benefits/6.png" />
+          <p>Бесплатная доставка
+            по Уфе от 10 000 руб.
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+          <img src="static/img/benefits/7.png" />
+          <p>Возврат
+            в течении 14 дней
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-5 d-flex justify-content-start justify-content-lg-center">
+          <img src="static/img/benefits/8.png" />
+          <p>Более 1000 клиентов
+            по всей России
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="request">
+    <div class="opacity py-5">
+      <div class="container py-5">
+        <div class="row text-center">
+          <div class="col-12 py-4">
+            <h2>Не нашли нужной запчасти на сайте?</h2>
+            <h4 class="mb-5">Оставьте заявку и мы оперативно подберем ее, со скидкой!</h4>
+            <a href=""><button class="my-5">ПОМОЧЬ В ПОИСКЕ ЗАПЧАСТИ</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contacts my-5">
+    <div id="map" style="width: 100%; height: 500px">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-2 col-lg-4 col-md-5 col-9 col-sm-4 contact my-5">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="offset-1 name">
+                  <p>Контакты</p>
+                </div>
+              </div>
+            </div>
+            <p><i class="fas fa-map-marker-alt"></i> г. Уфа, ул. Российская 66Б</p>
+            <p><i class="far fa-clock"></i> Пн-Пт 10.00-20.00, Сб 10.00-18.00</p>
+            <p class="phone"><i class="fas fa-phone"></i> +7 (960) 805-08-68</p>
+            <p><i class="fas fa-envelope"></i> impart102@bk.ru</p>
+            <button type="button" name="button"><a href="">Заказать консультацию</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 Woffset-xl-0 offset-lg-0 offset-md-1 py-1"> <img src="static/img/header/logo.png" class="float-left" width="62px" height="62px" />
+          <p class="logo text-uppercase">impart</p>
+          <p class="logo-1">автозапчасти легко</p>
+          <p class="copyright py-4">Copyright © 2019 Федеральная сеть магазинов
+            автозапчастей для иномарок.</p>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-5 col-sm-12 col-12 text-center offset-xl-0 offset-lg-0 offset-md-1 p-lg-0 py-2">
+          <div class="nav d-block text-md-left">
+            <div class="nav-item"><a href="#">Главная</a></div>
+            <div class="nav-item"><a href="#">О нас</a></div>
+            <div class="nav-item"><a href="#">Оплата и доставка</a></div>
+            <div class="nav-item"><a href="#">Гарантия и возврат</a></div>
+            <div class="nav-item"><a href="#">Франшиза</a></div>
+            <div class="nav-item"><a href="#">Контакты</a></div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12 text-center text-md-left offset-xl-0 offset-lg-0 offset-md-1 p-lg-0 info py-2">
+          <div class="address d-md-flex">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><strong>Наш адрес:</strong>
+              <br />г. Уфа, ул. Российская 66Б</p>
+          </div>
+          <div class="time d-md-flex">
+            <i class="far fa-clock"></i>
+            <p><strong>Режим работы:</strong>
+              <br />с пн - пт c 10:00 до 20:00
+              <br />сб с 10:00 до 18:00</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12 text-center offset-xl-0 offset-lg-0 offset-md-1 text-lg-right  text-md-left p-lg-0">
+          <div class="tel"><a href="tel:89608050868">+7 (960) 805-08-68</a></div>
+          <div class="button">
+            <a href=""><button>заказать звонок</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="static/js/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="static/js/main.js"></script>
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=90aa5863-7e93-4699-bad3-a821de24ed1a&lang=ru_RU"
-        type="text/javascript"></script>
+  <script src="static/js/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="static/js/main.js"></script>
+
 </body>
 
 </html>

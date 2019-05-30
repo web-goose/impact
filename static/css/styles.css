@@ -397,6 +397,7 @@ hr {
 }
 .fast_and_cheep img {
     margin-right: 0.5rem;
+    width: auto;
 }
 .fast_and_cheep p {
     color: #fff;
