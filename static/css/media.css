@@ -5,4 +5,7 @@
     .eu_parts h2, .jp_parts h2, .kr_parts h2, .cn_parts h2  {
         font-size: 4em;
     }
+    .arrow{
+      display: none;
+    }
 }

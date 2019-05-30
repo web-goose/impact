@@ -30,7 +30,7 @@ h3 {
     font-weight: 400;
     padding: 0.5rem 0;
     font-size: 3.1em;
-    color: #3b3b3b; 
+    color: #3b3b3b;
 }
 h4 {
     font-family: 'Montserrat';
@@ -57,7 +57,8 @@ button {
     background-color: #e4042d;
 }
 header > .container{
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 header button {
     font-size: 1.4em;
@@ -86,7 +87,7 @@ header i {
     margin-right: 2rem;
 }
 .navbar li a:hover {
-    color: #e4042d !important; 
+    color: #e4042d !important;
 }
 
 /* header */
@@ -105,7 +106,7 @@ header i {
     font-weight: 300;
     font-size: 1.8em;
     color: #444444;
-    margin: 0; 
+    margin: 0;
     line-height: 1;
     padding: 0;
 }
@@ -157,7 +158,7 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
   }
-  
+
   .about .second {
     background-image: url('../img/about/2.png');
     background-size: contain;
@@ -167,7 +168,7 @@ hr {
 
 /*  */
 .search {
-    background-image: url("../img/search/bg.png"); 
+    background-image: url("../img/search/bg.png");
     background-size: cover;
 }
 .search button {
@@ -176,32 +177,32 @@ hr {
 .search-1 {
     position: relative;
   }
-  
+
   .search-1 .menu .item {
     display: inline-block;
     padding: 15px;
   }
-  
+
   .search-1 .menu a {
     color: #fff;
     font-size: 1.3em;
   }
-  
+
   .search-1 .menu .item img {
     position: absolute;
     top: calc(-5em);
     color: #fff;
     font-size: 1.3em;
   }
-  
+
   .search-1 .menu {
     background-color: #E4022C;
   }
-  
+
   .search-1 .form {
     border-left: 2px solid #E4022C;
   }
-  
+
   .search-1 .form p {
     padding-top: 20px;
     margin-top: 20px;
@@ -209,18 +210,18 @@ hr {
     font-weight: bold;
     color: #3d3d3d;
   }
-  
+
   .search-1 .form .row {
     padding-bottom: 50px;
   }
-  
+
   .search-1 .line {
     position: relative;
     background-color: #E4022C;
     height: 2px;
     width: 100%;
   }
-  
+
   .search-1 .btn {
     width: 100%;
     font-size: 1.5em;
@@ -229,16 +230,16 @@ hr {
     background-color: #F9F9F9;
     border: 1px solid #CFCFCF;
   }
-  
+
   .search-1 .dropdown-menu {
     width: 100%;
   }
-  
+
   .search-1 .dropdown-item {
     font-size: 1.5em;
     width: 100%;
   }
-  
+
   .search-1 .button button{
     position: absolute;
     top: -50px;
@@ -249,7 +250,7 @@ hr {
     border-radius: 2px;
     width: 100%;
   }
-  
+
 /*  */
 
 .card {
@@ -426,12 +427,12 @@ hr {
 .callback h2 {
     color: #414141;
   }
-  
+
   .callback p.desc {
     font-size: 1.8em;
     color: #000;
   }
-  
+
   .callback input[type="text"], .request-form input {
     width: 100%;
     height: 50px;
@@ -444,11 +445,11 @@ hr {
   .request-form img {
       width: 100%;
   }
-  
+
   .callback input[type="checkbox"] {
     display: none;
   }
-  
+
   .callback .custom-checkbox {
     padding: 8px 14px;
     background-color: #F7F7F7;
@@ -458,7 +459,7 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
   .callback label {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -467,24 +468,24 @@ hr {
     font-size: 1.3em;
     line-height: 30px;
   }
-  
+
   .callback input[type="checkbox"]:checked ~ .labelcb .custom-checkbox {
       background-image: url('../img/callback/checkbox.png');
   }
-  
+
   .callback a {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
   }
-  
+
   .callback button {
     background-color: #E4022C;
     font-size: 1.2em;
     padding: 10px;
     border-radius: 2px;
   }
-  
+
   /* callback */
 
 
@@ -504,54 +505,54 @@ hr {
     background-position: top;
     padding: 40px;
   }
-  
+
   .contacts .name{
     position: absolute;
     top: -20px;
     left: 20px;
   }
-  
+
   .contacts .contact p{
     color: #000;
     font-size: 1.1em;
   }
-  
+
   .contacts p.phone{
     color: #000;
     font-size: 1.8em;
     font-weight: bold;
   }
-  
+
   .contacts p.phone i{
     font-size: .8em;
     padding-right: 0;
   }
-  
+
   .contacts .contact i{
     color: #e4042d;
     font-size: 1.2em;
     padding-right: 5px;
     padding-bottom: 10px;
   }
-  
+
   .contacts .contact a{
     color: #fff;
     font-weight: bold;
     text-decoration: none;
   }
-  
+
   .contacts .contact button{
       color: #e4042d;
     font-size: 1.2em;
     padding: 10px;
     border-radius: 2px;
   }
-  
+
   .contacts .name p{
     font-size: 3em;
     font-weight: bold;
   }
-  
+
   /* contacts */
 
 /* footer */
@@ -560,11 +561,11 @@ footer .copyright {
     font-size: 1.2em;
     font-weight: 400;
   }
-  
+
   footer .nav-item:first-child a{
     color: #e4042d;
   }
-  
+
   footer .nav-item a{
     text-decoration: none;
     text-transform: uppercase;
@@ -583,13 +584,13 @@ footer .copyright {
     color: #c2c4c6;
     margin-top: 2px;
   }
-  
+
   footer .info p{
     color: #000;
     font-size: 1.3em;
     line-height: 25px;
   }
-  
+
   footer .tel a{
     font-size: 2.2em;
     font-weight: bold;
@@ -597,7 +598,7 @@ footer .copyright {
     text-decoration: none;
     color: #000;
   }
-  
+
   footer .button button{
     font-size: 1.2em;
     line-height: 25px;
@@ -605,6 +606,5 @@ footer .copyright {
     background-color: #E4022C;
     padding: 10px 10px;
   }
-  
+
   /* footer */
-  
