@@ -274,8 +274,7 @@ hr {
 }
 .eu_parts .card img {
     align-self: center;
-    width: 6rem;
-    height: 5rem;
+    width: 50%;
 }
 
 /*  */
@@ -299,8 +298,7 @@ hr {
 }
 .jp_parts .card img {
     align-self: center;
-    height: 5rem;
-    width: 6rem;
+    width: 40%;
 }
 
 
@@ -325,8 +323,7 @@ hr {
 }
 .kr_parts .card img {
     align-self: center;
-    height: 5rem;
-    width: 6rem;
+    width: 40%;
 }
 
 
@@ -351,8 +348,7 @@ hr {
 }
 .cn_parts .card img {
     align-self: center;
-    height: 5rem;
-    width: 6rem;
+    width: 40%;
 }
 .card:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
